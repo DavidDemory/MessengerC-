@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@messengerclone.qrezar0.mongodb.net">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.48">
+    <root id="1">
+      <ServerVersion>6.0.6</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="test">
+      <Current>1</Current>
+    </schema>
+    <schema id="3" parent="1" name="admin"/>
+    <schema id="4" parent="1" name="local"/>
+    <table id="5" parent="2" name="Account"/>
+    <table id="6" parent="2" name="Conversation"/>
+    <table id="7" parent="2" name="Message"/>
+    <table id="8" parent="2" name="User"/>
+  </database-model>
+</dataSource>
